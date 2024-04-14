@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container.header {
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+.btn {
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.btn.tijera {
+    background-color: red;
+    color: white;
+}
+
+.btn.piedra {
+    background-color: gray;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
